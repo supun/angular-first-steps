@@ -1,0 +1,110 @@
+<div class="app-content">
+
+    <mat-card>
+        <mat-card-content>
+            <form> 
+                <mat-form-field style="width: 50%;">
+                    <input matInput placeholder="Input Keyword" >
+                </mat-form-field>
+              </form>
+            <button mat-raised-button color="primary"> EXPORT AND ANONYMIZE</button>
+            <button mat-raised-button color="primary" style="margin-left: 10px;">EVALUATE</button>
+         
+          </mat-card-content>
+        
+    </mat-card>
+            <mat-card>
+                <mat-card-header>
+                    <mat-card-title>Discernability Metrics</mat-card-title>
+                  </mat-card-header>
+                <mat-card-content>
+                    <div fxLayout="row">
+                        <google-chart #chart
+                        [title]="title"
+                        [type]="type"
+                        [data]="data"
+                        [columnNames]="columnNames"
+                        [options]="options">
+                        </google-chart> 
+                            <google-chart #chart
+                            [title]="title"
+                            [type]="type"
+                            [data]="data"
+                            [columnNames]="columnNames"
+                            [options]="options"
+                            >
+                            </google-chart> 
+                            <google-chart #chart
+                            [title]="title"
+                            [type]="type"
+                            [data]="data"
+                            [columnNames]="columnNames"
+                            [options]="options">
+                            </google-chart> 
+                                <google-chart #chart
+                                [title]="title"
+                                [type]="type"
+                                [data]="data"
+                                [columnNames]="columnNames"
+                                [options]="options"
+                                >
+                                </google-chart> 
+            
+                    </div>
+                </mat-card-content>      
+            </mat-card>
+            <mat-card>
+                <mat-card-header>
+                    <mat-card-title>Discernability Metrics</mat-card-title>
+                  </mat-card-header>
+                <mat-card-content>
+                    <div fxLayout="row">
+                        <google-chart #chart
+                        [title]="title"
+                        [type]="type"
+                        [data]="data"
+                        [columnNames]="columnNames"
+                        [options]="options">
+                        </google-chart> 
+                            <google-chart #chart
+                            [title]="title"
+                            [type]="type"
+                            [data]="data"
+                            [columnNames]="columnNames"
+                            [options]="options"
+                            >
+                            </google-chart> 
+                            <google-chart #chart
+                            [title]="title"
+                            [type]="type"
+                            [data]="data"
+                            [columnNames]="columnNames"
+                            [options]="options">
+                            </google-chart> 
+                                <google-chart #chart
+                                [title]="title"
+                                [type]="type"
+                                [data]="data"
+                                [columnNames]="columnNames"
+                                [options]="options"
+                                >
+                                </google-chart> 
+            
+                    </div>
+                </mat-card-content>      
+            </mat-card>
+          
+    <mat-card style="background-color: antiquewhite;">
+        <mat-card-header>
+            <mat-card-title>Anonymized sentence</mat-card-title>
+          </mat-card-header>
+        <mat-card-content>
+            <p>You can check a working sample here: https://jsfiddle.net/VanessaRC/Lz9vz6bs/1/
+
+                This would ensure, that if you adjust the width to the container you need, the style adjusts nicely to fit without breaking and keeps your HTML clear and easy to read.</p>
+          </mat-card-content>
+        
+    </mat-card>
+
+
+    </div> 
